@@ -7,7 +7,7 @@ let palabra = diccionario[Math.floor(Math.random() * diccionario.length)];
 
 async function initGame() {
     console.log('Juego Iniciado');
-    console.log(palabra);
+    alert("La palabra posee " + palabra.length + " letras.");
 }
 function validarIntento() {
     const INTENTO = getIntento();
